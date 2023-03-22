@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1fd8a0d-c29e-401c-8f6a-02e78cecb8ab" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/fc/gateway/handler/GatewayExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-b/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-b/src/main/java/com/fc/servicea/ServicebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-b/src/main/java/com/fc/servicea/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-b/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-a/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-a/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-a/src/main/java/com/fc/servicea/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-a/src/main/java/com/fc/servicea/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-a/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-a/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\dev\mavenRepo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../env/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\dev\env\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="2NLjusmKetSuNMoK48oTX9azDzc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "StatusDashboardGroupingRule": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/dev/fcPro/cloud-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "ae618b5fb91d049fd2aaa51d28d24475",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\fcPro\cloud-demo" />
+      <recent name="D:\dev\fcPro\cloud-demo\gateway\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.fc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.service-a-8011">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="cloud-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="cloud-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gateway-8010" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fc.gateway.GatewayApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fc.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-a-8011" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="service-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fc.servicea.ServiceaApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-a-8013" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="service-a" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fc.servicea.ServiceaApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8013" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service-b-8012" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="service-b" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fc.servicea.ServicebApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fc.servicea.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.service-a-8013" />
+      <item itemvalue="Spring Boot.service-b-8012" />
+      <item itemvalue="Spring Boot.gateway-8010" />
+      <item itemvalue="Spring Boot.service-a-8011" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.service-a-8013" />
+        <item itemvalue="Spring Boot.service-a-8011" />
+        <item itemvalue="Spring Boot.gateway-8010" />
+        <item itemvalue="Spring Boot.service-b-8012" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1fd8a0d-c29e-401c-8f6a-02e78cecb8ab" name="Changes" comment="" />
+      <created>1679450483309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679450483309</updated>
+      <workItem from="1679450484517" duration="8054000" />
+      <workItem from="1679466386787" duration="4291000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1679467052535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679467052535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../mavenRepo/org/springframework/cloud/spring-cloud-gateway-server/4.0.1/spring-cloud-gateway-server-4.0.1-sources.jar!/org/springframework/cloud/gateway/route/RouteDefinition.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
