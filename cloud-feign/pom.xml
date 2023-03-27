@@ -4,14 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.fc</groupId>
-    <artifactId>cloud-gateway-demo</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>cloud-feign</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>gateway</module>
-        <module>service-a</module>
-        <module>service-b</module>
+        <module>service-provider</module>
+        <module>service-hello</module>
     </modules>
 
     <properties>
@@ -22,7 +21,6 @@
         <spring.boot.version>3.0.3</spring.boot.version>
         <spring.cloud.version>2022.0.1</spring.cloud.version>
     </properties>
-
 
     <dependencyManagement>
         <dependencies>
@@ -48,11 +46,6 @@
                 <version>2022.0.0.0-RC1</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-                <version>2022.0.0.0-RC1</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -68,6 +61,5 @@
 
         </dependencies>
     </dependencyManagement>
-
 
 </project>

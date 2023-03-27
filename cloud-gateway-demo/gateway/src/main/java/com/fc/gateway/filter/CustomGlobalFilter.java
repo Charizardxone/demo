@@ -19,18 +19,22 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-//        return chain.filter(exchange);
 
         ServerHttpRequest request = exchange.getRequest();
-        ServerHttpRequest.Builder mutate = request.mutate();
-
         String url = request.getURI().getPath();
         log.info("url: {}", url);
-        return chain.filter(exchange.mutate().request(mutate.build()).build());
+
+        // 可在此处做一些如 令牌校验、登录校验等工作
+
+        return chain.filter(exchange);
     }
 
+    /**
+     * 可自定义多个GlobalFilter，根据order顺序执行，order越小优先级越高
+     * @return
+     */
     @Override
     public int getOrder() {
-        return -1;
+        return 0;
     }
 }
