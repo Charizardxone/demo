@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author yfc
  * @date 2023/3/27 11:13
  */
-// 此处的只为提供要调用服务的spring.application.name
+// 此处的值为提供接口调用服务的在注册中心的服务名称
 @FeignClient("service-provider")
 public interface ProviderClient {
 
