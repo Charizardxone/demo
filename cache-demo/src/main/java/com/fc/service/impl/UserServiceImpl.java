@@ -14,23 +14,18 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Slf4j
+@CacheConfig(cacheNames = "cache1")
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
     @Override
-    @Cacheable(key = "#name", cacheNames = "cache1")
+    @Cacheable(key = "#name")
     public String cache1(String name) {
 
-        return "hello!" + name;
+        return "hello!cache1" + name;
     }
 
 
-    @Override
-    @Cacheable(key = "#name", cacheNames = "cache2")
-    public String cache2(String name) {
-
-        return "hello!" + name;
-    }
 }

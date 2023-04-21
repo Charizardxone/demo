@@ -6,5 +6,4 @@ package com.fc.service;
  */
 public interface UserService {
     String cache1(String name);
-    String cache2(String name);
 }
