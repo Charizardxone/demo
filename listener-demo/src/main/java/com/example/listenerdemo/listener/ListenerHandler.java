@@ -13,9 +13,8 @@ import org.springframework.transaction.event.TransactionalEventListener;
 @Slf4j
 public class ListenerHandler {
 
-
     @TransactionalEventListener(phase = TransactionPhase.AFTER_COMMIT)
-    public void handler(Event event){
+    public void handler(Event event) {
 
         log.info("source: {} ", event.getSource());
 

@@ -1,0 +1,42 @@
+server:
+  # 服务端口
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/demo?useUnicode=true&useSSL=false&serverTimezone=UTC&characterEncoding=UTF8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+
+security:
+  # 密钥
+  secret: security
+  # 访问令牌过期时间（1天）
+  access-expires: 86400
+  # 刷新令牌过期时间（30天）
+  refresh-expires: 2592000
+  # 白名单
+  white-list: /user/login,/user/register,/user/refresh
+
+
+# mybaits-plus配置
+mybatis-plus:
+  # MyBatis Mapper所对应的XML文件位置
+  mapper-locations: classpath:/mapper/**/*Mapper.xml
+  global-config:
+    # 关闭MP3.0自带的banner
+    banner: false
+    db-config:
+      # 主键类型 0:数据库ID自增 1.未定义 2.用户输入 3 id_worker 4.uuid 5.id_worker字符串表示
+      id-type: 0
+      #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+      field-strategy: 1
+      # 默认数据库表下划线命名
+      table-underline: true
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
