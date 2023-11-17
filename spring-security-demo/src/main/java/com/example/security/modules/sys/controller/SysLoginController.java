@@ -5,12 +5,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 
-/**
- * 登录相关
- *
- * @author czx
- * @email object_czx@163.com
- */
 @Slf4j
 @RestController
 public class SysLoginController {
@@ -18,7 +12,7 @@ public class SysLoginController {
 
     @GetMapping(value = "/")
     public FcResult hello(String account) {
-        return FcResult.success("hello welcome" + account, null);
+        return FcResult.success("hello welcome " + account, "");
     }
 
 

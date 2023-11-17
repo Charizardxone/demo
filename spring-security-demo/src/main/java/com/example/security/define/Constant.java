@@ -21,13 +21,6 @@ public class Constant {
 
 	public static final int CODE_SIZE = 4;
 
-	/**
-	 * 菜单类型
-	 *
-	 * @author czx
-	 * @email object_czx@163.com
-	 * @date 2016年11月15日 下午1:24:29
-	 */
     public enum MenuType {
         /**
          * 目录

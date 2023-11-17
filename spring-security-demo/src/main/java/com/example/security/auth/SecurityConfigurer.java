@@ -19,6 +19,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
@@ -91,8 +92,9 @@ public class SecurityConfigurer  {
         // 设置退出URL
         http.logout()
                 .logoutUrl(Constant.TOKEN_LOGOUT_URL)
-                .logoutSuccessUrl("/mapper/sys/logout")
+                .logoutSuccessUrl("/auth/logout")
                 .addLogoutHandler(customLogoutSuccessHandler);
+
 
         // 如果不用验证码，注释这个过滤器即可
 //        http.addFilterBefore(new ValidateCodeFilter(redisTemplate, authenticationFailureHandler()), UsernamePasswordAuthenticationFilter.class);
@@ -104,6 +106,12 @@ public class SecurityConfigurer  {
         http.userDetailsService(userDetailsService);
         return http.build();
 
+    }
+
+
+    @Bean
+    public PasswordEncoder passwordEncoder(){
+        return new BCryptPasswordEncoder();
     }
 
     @Bean

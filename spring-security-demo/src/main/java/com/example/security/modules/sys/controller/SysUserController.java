@@ -7,12 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-/**
- * 系统用户
- *
- * @author czx
- * @email object_czx@163.com
- */
 @RestController
 @RequestMapping("/sys/user")
 public class SysUserController {

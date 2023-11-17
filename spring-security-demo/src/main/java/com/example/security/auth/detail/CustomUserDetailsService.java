@@ -10,6 +10,7 @@ import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -33,7 +34,13 @@ public class CustomUserDetailsService implements UserDetailsService {
         if (ObjectUtil.isNull(sysUser)) {
             throw new UsernameNotFoundException("用户不存在");
         }
+        sysUser.setPassword("$2a$10$vqiI9f1j6zeMikoDKD8DeuwutBWdH/rhloUtsCTtTEFggX2ZaDUma");
         return getDetail(sysUser);
+    }
+
+    public static void main(String[] args) {
+        String encode = new BCryptPasswordEncoder().encode("123");
+        System.out.println(encode);
     }
 
 

@@ -11,12 +11,6 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-/**
- * 系统用户
- *
- * @author czx
- * @email object_czx@163.com
- */
 @Data
 @TableName("t_sys_user")
 public class SysUser implements Serializable {
